@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
     var attempt = 4; // Variable to count number of attempts.
     // Below function Executes on click of login button.
     function validate() {
@@ -20,4 +19,3 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-});
