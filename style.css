@@ -49,8 +49,7 @@ a{
     text-align: center;
     padding: 17px 48px;
     color: #fff;
-    background-color: #3E7366;
-    height: 48px;
+    background-color: #243b55;
 }
 
 .btn:hover {
@@ -71,8 +70,7 @@ a{
     text-align: center;
     padding: 17px 48px;
     color: #fff;
-    background-color: #3E7368;
-    height: 48px;
+    background-color: #19293c;
 }
 
 .login-box {
@@ -142,16 +140,6 @@ a{
     transition: .5s;
     margin-top: 40px;
     letter-spacing: 4px
-}
-
-.login-box a:hover {
-    background: #03e9f4;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 100px #03e9f4;
 }
 
 .login-box a span {
