@@ -8,9 +8,9 @@
             return false;
         } else {
             attempt--; // Decrementing by one.
-            alert("You have left " + attempt + " attempt;");
+            alert("Il ne te reste plus que " + attempt + " essaie");
             // Disabling fields after 3 attempts.
-            if (attempt == 0) {
+            if (attempt == 2) {
                 document.getElementById("username").disabled = true;
                 document.getElementById("password").disabled = true;
                 document.getElementById("submit").disabled = true;
@@ -18,4 +18,3 @@
             }
         }
     }
-
