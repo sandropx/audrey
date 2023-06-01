@@ -365,7 +365,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function verifierScore() {
         var scoreElement = document.getElementById("score");
         if (scoreElement && parseInt(scoreElement.innerText) >= 5) {
-            window.location.href = "https://exemple.com/redirection";
+            window.location.replace("game-block-end.html");
         }
     }
     // Boucle temporelle pour exécuter la vérification toutes les secondes
