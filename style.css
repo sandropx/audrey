@@ -28,7 +28,9 @@ body {
     }
 }
 
-/* CSS */
+a{
+    text-decoration: none;
+}
 .btn {
     display: inline-block;
     outline: none;
