@@ -79,16 +79,16 @@
     <div id="container">
         <div id="picbox">
             <span id="boxbuttons">
-                <span class="button">
-                    <span id="counter">0</span>
-                    Clicks
-                </span>
-                <span class="button">
-                    <a onclick="ResetGame();">Reset</a>
-                </span>
+              <span class="button">
+                <span id="counter">0</span>
+                Clicks
+              </span>
+              <span class="button">
+                <a onclick="ResetGame();">Reset</a>
+              </span> 
             </span>
             <div id="boxcard"></div>
-        </div>
+          </div>
     </div>
 
     <script>
@@ -188,7 +188,7 @@
                 $("#counter").html("" + Counter);
 
                 if (ImgFound == ImgSource.length) {
-                    window.location.replace("login.html");
+                    $("#counter").prepend('<span id="success">You Found All Pictues With </span>');
                 }
             }
         }
