@@ -246,7 +246,6 @@ a{
     width: 100px;
     height: 100px;
     margin: 5px;
-    padding: 5px;
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
@@ -258,7 +257,7 @@ a{
     display: none;
     border-radius: 10px;
     z-index: 3;
-    width: 100px;
+    width: 100%;
 }
 
 #boxbuttons {
@@ -269,11 +268,12 @@ a{
 
 #boxbuttons .button {
     text-transform: uppercase;
-    background: #EE872A;
     padding: 5px 10px;
     margin: 5px;
     border-radius: 10px;
     cursor: pointer;
+    background: rgba(0, 0, 0, .5);
+    color: white;
 }
 
 #boxbuttons .button:hover {
