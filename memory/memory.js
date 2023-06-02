@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 var BoxOpened = "";
 var ImgOpened = "";
 var Counter = 0;
@@ -119,4 +121,5 @@ $(function () {
     }
     $(Source + " div").click(OpenCard);
     ShuffleImages();
+});
 });
