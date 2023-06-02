@@ -9,7 +9,7 @@ body {
     background: linear-gradient(#141e30, #243b55);
 }
 
-.btn {
+.btn-gen {
     animation: zoom-in-out-animation 1s;
     animation-iteration-count: infinite;
 }
@@ -31,7 +31,7 @@ body {
 a{
     text-decoration: none;
 }
-.btn {
+.btn-gen {
     display: inline-block;
     outline: none;
     cursor: pointer;
@@ -52,7 +52,7 @@ a{
     background-color: #243b55;
 }
 
-.btn:hover {
+.btn-gen:hover {
     display: inline-block;
     outline: none;
     cursor: pointer;
