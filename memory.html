@@ -47,6 +47,7 @@
             display: none;
             border-radius: 10px;
             z-index: 3;
+            width: 100px
         }
 
         #boxbuttons {
@@ -166,8 +167,6 @@
                             ImgOpened = "";
                         }, 400);
                     } else {
-                        $("#" + id + " img").parent().css("visibility", "hidden");
-                        $("#" + BoxOpened + " img").parent().css("visibility", "hidden");
                         ImgFound++;
                         BoxOpened = "";
                         ImgOpened = "";
