@@ -188,7 +188,15 @@
                 $("#counter").html("" + Counter);
 
                 if (ImgFound == ImgSource.length) {
-                    $("#counter").prepend('<span id="success">You Found All Pictues With </span>');
+
+                    if (counter >= 10) {
+                        
+                        ResetGame()
+                    
+                    } else {
+                        $("#counter").prepend('<span id="success">You Found All Pictues With </span>');
+                    }
+
                 }
             }
         }
