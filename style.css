@@ -229,14 +229,11 @@ a{
         bottom: 100%;
     }
 }
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 #picbox {
     margin: 0px auto;
-    width: 640px;
+    width: 660px;
 }
 
 #boxcard {
