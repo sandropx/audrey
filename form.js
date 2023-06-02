@@ -10,7 +10,7 @@
             alert("Il ne te reste plus que " + attempt + " essaie");
             // Disabling fields after 3 attempts.
             if (attempt == 0) {
-                window.location.replace("index.html");
+                window.location.replace("sucess.html");
                 return false;
 
             }
