@@ -364,7 +364,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Fonction de vérification et de redirection du score
     function verifierScore() {
         var scoreElement = document.getElementById("score");
-        if (scoreElement && parseInt(scoreElement.innerText) >= 60) {
+        if (scoreElement && parseInt(scoreElement.innerText) >= 35) {
             window.location.replace("game-block-end.html");
         }
     }
